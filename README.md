@@ -1,15 +1,15 @@
-# Heart Disease Analysis Dashboard
+# 📊 Heart Disease Analysis Dashboard
 
 This project provides a comprehensive dashboard for analyzing heart disease data and predicting heart disease risk using a Streamlit application 
 
-## Features
+## ✨ Features
 
 - **Interactive Dashboard**: Built with Streamlit, allowing users to explore heart disease data through various filters and visualizations.
 - **Key Performance Indicators (KPIs)**: Displays prevalence, average age, average cholesterol, and patient count.
 - **Detailed Analysis**: Provides histograms, box plots, violin plots, scatter plots, bar plots, pie charts, and heatmaps for in-depth data exploration.
 - **Heart Disease Prediction**: A machine learning model (Random Forest Classifier) to predict heart disease risk based on patient input.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 heart_disease_analysis_dashboard/
@@ -23,7 +23,7 @@ heart_disease_analysis_dashboard/
 - `data/heart_disease_uci.csv`: The dataset used for analysis and prediction.
 - `requirements.txt`: Lists all the Python dependencies required to run the project.
 
-## Installation
+## ⚙️ Installation
 
 1. Clone the repository:
    ```bash
@@ -73,16 +73,17 @@ The `heart_disease_uci.csv` dataset contains various attributes related to heart
 - `thal`: Thallium stress test result.
 - `num`: Heart disease diagnosis (0 for absence, 1-4 for presence).
 
-## Machine Learning Model
+## 🤖 Machine Learning Model
 
 The project uses a Random Forest Classifier for heart disease prediction. The model is trained on the provided dataset and integrated into the Streamlit dashboard for real-time predictions.
 
-## Contributing
+## 🤝 Contributing
 
-Feel free to fork this repository, submit pull requests, or open issues for any improvements or bug fixes.
+Feel free to **fork** this repository, **submit pull requests**, or **open issues** for suggestions, improvements, or bug fixes.
 
-## License
+## 📄 License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more information.
 
 
