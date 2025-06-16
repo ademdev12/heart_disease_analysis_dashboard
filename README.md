@@ -83,6 +83,6 @@ Feel free to fork this repository, submit pull requests, or open issues for any 
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. (Note: A LICENSE file is not included in the original project, but it's good practice to add one.)
+Distributed under the MIT License. See LICENSE for more information.
 
 
