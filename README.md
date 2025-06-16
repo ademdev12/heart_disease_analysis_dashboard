@@ -42,7 +42,7 @@ heart_disease_analysis_dashboard/
    pip install -r requirements.txt
    ```
 
-## Usage
+## 🎯 Usage
 
 ### Running the Streamlit Dashboard
 
@@ -54,7 +54,7 @@ streamlit run app.py
 
 This will open the dashboard in your web browser.
 
-## Dataset
+## ⛃ Dataset
 
 The `heart_disease_uci.csv` dataset contains various attributes related to heart disease, including:
 
