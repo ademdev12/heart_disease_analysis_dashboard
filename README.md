@@ -84,6 +84,6 @@ Feel free to **fork** this repository, **submit pull requests**, or **open issue
 ## 📄 License
 
 Distributed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for more information.
+
 
 
