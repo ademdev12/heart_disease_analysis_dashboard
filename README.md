@@ -1,4 +1,6 @@
 # 📊 Heart Disease Analysis Dashboard
+![image](https://github.com/user-attachments/assets/a240cf91-0ac1-45f4-982d-fbc1f2b835b0)
+
 
 This project provides a comprehensive dashboard for analyzing heart disease data and predicting heart disease risk using a Streamlit application 
 
