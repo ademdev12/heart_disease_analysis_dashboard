@@ -29,7 +29,7 @@ heart_disease_analysis_dashboard/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/heart_disease_analysis_dashboard.git
+   git clone https://github.com/ademdev12/heart_disease_analysis_dashboard.git
    cd heart_disease_analysis_dashboard
    ```
 
