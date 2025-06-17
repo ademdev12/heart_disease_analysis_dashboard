@@ -77,14 +77,14 @@ else:
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.metric("Prevalence", f"{filtered_df["has_disease"].mean() * 100:.2f}%", 
-                  delta=f"{(filtered_df["has_disease"].mean() - df["has_disease"].mean()) * 100:.1f}%")
+        st.metric("Prevalence", f"{filtered_df['has_disease'].mean() * 100:.2f}%", 
+                  delta=f"{(filtered_df['has_disease'].mean() - df['has_disease'].mean()) * 100:.1f}%")
     with col2:
-        st.metric("Average Age", f"{filtered_df["age"].mean():.1f} years", 
-                  delta=f"{filtered_df["age"].mean() - df["age"].mean():.1f} years")
+        st.metric("Average Age", f"{filtered_df['age'].mean():.1f} years", 
+                  delta=f"{filtered_df['age'].mean() - df['age'].mean():.1f} years")
     with col3:
-        st.metric("Average Cholesterol", f"{filtered_df["chol"].mean():.1f} mg/dl", 
-                  delta=f"{filtered_df["chol"].mean() - df["chol"].mean():.1f} mg/dl")
+        st.metric("Average Cholesterol", f"{filtered_df['chol'].mean():.1f} mg/dl", 
+                  delta=f"{filtered_df['chol'].mean() - df['chol'].mean():.1f} mg/dl")
     with col4:
         st.metric("Patients", len(filtered_df))
 
@@ -234,6 +234,6 @@ else:
                 prob = model.predict_proba(input_data)[0][1] * 100
                 pred = model.predict(input_data)[0]
                 st.success(f"**Probability of heart disease** : {prob:.2f}%")
-                st.markdown(f"**Predicted diagnosis** : {"Heart Disease" if pred == 1 else "No Disease"}")
+                st.markdown(f"**Predicted diagnosis** : {'Heart Disease' if pred == 1 else 'No Disease'}")
 
 
